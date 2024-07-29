@@ -70,6 +70,9 @@
   /* Navbar link hover effect */
   .nav-link {
     position: relative;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: larger;
     transition: color 0.3s ease-in-out;
   }
   
