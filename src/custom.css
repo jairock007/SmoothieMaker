@@ -1,0 +1,120 @@
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideInFromLeft {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideInFromRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  /* Custom styles */
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .slide-in-left {
+    animation: slideInFromLeft 0.5s ease-out;
+  }
+  
+  .slide-in-right {
+    animation: slideInFromRight 0.5s ease-out;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #7ee8fa 0%, #80ff72 100%);
+    padding: 100px 0;
+    margin-top: -56px; /* Adjust based on your navbar height */
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #28a745;
+  }
+  
+  .testimonial-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .btn-buy-now {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-buy-now:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+
+/* General hover effect for clickable items */
+.hover-effect {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Navbar link hover effect */
+  .nav-link {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #28a745;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Feature icon hover effect */
+  .feature-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .feature-icon:hover {
+    transform: scale(1.1);
+    color: #218838;
+  }
+  
+  /* Footer link hover effect */
+  .footer-link {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-link:hover {
+    color: #28a745 !important;
+    text-decoration: none;
+  }
+  
+  /* Update existing styles */
+  .btn-buy-now:hover {
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
