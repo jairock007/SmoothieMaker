@@ -8,13 +8,12 @@ const Header = () => {
         <Navbar.Brand href="#home" className="fade-in hover-effect">
           <img
             src="/images/logo.jpg"
-            width="30"
-            height="30"
+            width="80"
+            height="80"
             className="d-inline-block align-top"
             alt="EcoBlend logo"
           />
           {' '}
-          EcoBlend
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
