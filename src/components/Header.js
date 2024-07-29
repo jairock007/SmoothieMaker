@@ -8,8 +8,8 @@ const Header = () => {
         <Navbar.Brand href="#home" className="fade-in hover-effect">
           <img
             src="/images/logo.jpg"
-            width="80"
-            height="80"
+            width="40"
+            height="40"
             className="d-inline-block align-top"
             alt="EcoBlend logo"
           />
