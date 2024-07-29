@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const Testimonials = () => {
   return (
     <Container className="my-5 py-5" id="testimonials">
-      <h2 className="text-center mb-5 fade-in">Customer Testimonials</h2>
+      <h2 className="text-center mb-5 fade-in">Customers Testimonials</h2>
       <Row>
         <Col md={4} className="mb-4">
           <Card className="h-100 shadow testimonial-card">
