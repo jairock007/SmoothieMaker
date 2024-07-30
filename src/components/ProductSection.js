@@ -7,7 +7,7 @@ const ProductSection = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="slide-in-left">
-            <h1 className="mb-4 display-4">EcoBlend Smoothie Maker</h1>
+            <h1 className="mb-4 display-4 mt-4">EcoBlend Smoothie Maker</h1>
             <p className="lead mb-4">
               Create delicious, healthy smoothies with our eco-friendly and powerful blender.
             </p>
